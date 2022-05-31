@@ -1,7 +1,6 @@
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
-// Variables
 let score;
 let scoreText;
 let highscore;
@@ -12,7 +11,6 @@ let obstacles = [];
 let gameSpeed;
 let keys = {};
 
-// Event Listeners
 document.addEventListener('keydown', function (evt) {
   keys[evt.code] = true;
 });
@@ -126,7 +124,6 @@ class Text {
   }
 }
 
-// Game Functions
 function SpawnObstacle () {
   let size = RandomIntInRange(20, 70);
   let type = RandomIntInRange(0, 1);
@@ -183,7 +180,6 @@ function Update () {
     }
   }
 
-  // Spawn Enemies
   for (let i = 0; i < obstacles.length; i++) {
     let o = obstacles[i];
 
