@@ -1,2 +1,2 @@
-<h1 align="center">Squares? Squares!
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h1 align="center">Квадрат и другие квардаты</h1>
+<p>Универсальный таймкиллер, что-то вроде динозавра из Хрома<p>
